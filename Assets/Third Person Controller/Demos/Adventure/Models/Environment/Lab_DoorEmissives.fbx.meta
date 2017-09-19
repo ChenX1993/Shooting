@@ -1,0 +1,97 @@
+fileFormatVersion: 2
+guid: 33ba8e427adda444299f4f0116cfabbf
+timeCreated: 1431012899
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lab_MainDoorEmissive
+    100004: Lab_SmallDoor_Emissive
+    100006: Lab_Emissive_MainDoor
+    100008: Lab_Emissive_SmallDoor
+    100010: LQ_Emissive_Bed
+    100012: LQ_Emissive_Door
+    400000: //RootNode
+    400002: Lab_MainDoorEmissive
+    400004: Lab_SmallDoor_Emissive
+    400006: Lab_Emissive_MainDoor
+    400008: Lab_Emissive_SmallDoor
+    400010: LQ_Emissive_Bed
+    400012: LQ_Emissive_Door
+    2300000: Lab_MainDoorEmissive
+    2300002: Lab_SmallDoor_Emissive
+    2300004: Lab_Emissive_MainDoor
+    2300006: Lab_Emissive_SmallDoor
+    2300008: LQ_Emissive_Bed
+    2300010: LQ_Emissive_Door
+    3300000: Lab_MainDoorEmissive
+    3300002: Lab_SmallDoor_Emissive
+    3300004: Lab_Emissive_MainDoor
+    3300006: Lab_Emissive_SmallDoor
+    3300008: LQ_Emissive_Bed
+    3300010: LQ_Emissive_Door
+    4300000: Lab_SmallDoor_Emissive
+    4300002: Lab_MainDoorEmissive
+    4300004: LQ_Emissive_Bed
+    4300006: LQ_Emissive_Door
+    4300008: Lab_Emissive_SmallDoor
+    4300010: Lab_Emissive_MainDoor
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: 0bc6c6bd93187444bb1c45e410184ad6
+timeCreated: 1462288101
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WeaponBG
+    21300002: GrenadeBG
+    21300004: Assault Rifle
+    21300006: Grenade
+    21300008: Heart
+    21300010: Katana
+    21300012: Pistol
+    21300014: Knife
+    21300016: Rocket Launcher
+    21300018: Bow
+    21300020: NoItemCrosshairs
+    21300022: PistolCrosshairsCenter
+    21300024: Weapon8
+    21300026: Weapon1
+    21300028: Weapon2
+    21300030: Weapon4
+    21300032: Weapon7
+    21300034: Weapon6
+    21300036: Weapon5
+    21300038: Weapon3
+    21300040: Interact
+    21300042: Cover
+    21300044: Vault
+    21300046: PistolCrosshairsTop
+    21300048: PistolCrosshairsRight
+    21300050: PistolCrosshairsLeft
+    21300052: RocketLauncherCrosshairs
+    21300054: MeleeCrosshairs
+    21300056: AssaultRifleCrosshairsCenter
+    21300058: AssaultRifleCrosshairsTop
+    21300060: AssaultRifleCrosshairsBottom
+    21300062: AssaultRifleCrosshairsRight
+    21300064: AssaultRifleCrosshairsLeft
+    21300066: PistolCrosshairsBottom
+    21300068: HitIndicator
+    21300070: Fist
+    21300072: BowCrosshairs
+    21300074: BlackSquare
+    21300076: Touchpad
+    21300078: Button
+    21300080: Climb
+    21300082: LedgeStrafe
+    21300084: DualWieldWeaponBG
+    21300086: GenreBG
+    21300088: Pickup
+    21300090: AssaultRifle
+    21300092: Push
+    21300094: Shield
+    21300096: Sword
+    21300098: Shockwave
+    21300100: Fire Stream
+    21300102: Ride
+    21300104: Pull
+    21300106: LoadedBackground
+    21300108: WeaponBG_adventure
+    21300110: NoWeaponBG_adventure
+    21300112: HeartFull
+    21300114: HeartEmpty
+    21300116: HeartHalfFull
+    21300118: HitIndicator_Adventure
+    21300120: Sprites_7
+    21300122: Sprites_8
+    21300124: Sprites_9
+    21300126: Sprites_10
+    21300128: WeaponBG_Adventure
+    21300130: NoWeaponBG_Adventure
+    21300132: Open
+    21300134: GrenadeProjectileBG
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WeaponBG
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 817
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Heart
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 178
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 817
+        width: 208
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 812
+        width: 199
+        height: 199
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon4
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 811
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon7
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 601
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 608
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 599
+        width: 210
+        height: 200
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon3
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 597
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HitIndicator
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 467
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlackSquare
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 940
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Climb
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 360
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Interact
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 477
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Vault
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 476
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Cover
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 475
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LedgeStrafe
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 363
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DualWieldWeaponBG
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 700
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GenreBG
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 58
+        width: 308
+        height: 159
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pickup
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 246
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Push
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 244
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ride
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 244
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pull
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 357
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeBG
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 538
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LoadedBackground
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 589
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: WeaponBG_Adventure
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 400
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: NoWeaponBG_Adventure
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 245
+        width: 148
+        height: 148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeartFull
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 179
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeartEmpty
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 179
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HeartHalfFull
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 179
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: HitIndicator_Adventure
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 400
+        width: 52
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Open
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 127
+        width: 180
+        height: 78
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GrenadeProjectileBG
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 526
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

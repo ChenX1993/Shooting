@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 99d62f4daaef8dd4295468d98dc50e22
+timeCreated: 1431452215
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Obstacle__HighWall
+    100002: Obstacle_Archery
+    100004: Obstacle_Crawl
+    100006: Obstacle_Melee
+    100008: Obstacle_Pipe
+    100010: Obstacle_Platform
+    100012: //RootNode
+    100014: ObstacleDecals
+    100016: Obstacle_Archery_Decal
+    100018: Obstacle_Crawl_Decal
+    100020: Obstacle_HighWall_Decal
+    100022: Obstacle_Melee_Decal
+    100024: Obstacle_Pipe_DecalLeft
+    100026: Obstacle_Pipe_DecalRight
+    100028: Obstacle_Platform_Decal
+    100030: Obstacle_HighWall
+    100032: Obstacle_Pipe_Decal
+    400000: Obstacle__HighWall
+    400002: Obstacle_Archery
+    400004: Obstacle_Crawl
+    400006: Obstacle_Melee
+    400008: Obstacle_Pipe
+    400010: Obstacle_Platform
+    400012: //RootNode
+    400014: ObstacleDecals
+    400016: Obstacle_Archery_Decal
+    400018: Obstacle_Crawl_Decal
+    400020: Obstacle_HighWall_Decal
+    400022: Obstacle_Melee_Decal
+    400024: Obstacle_Pipe_DecalLeft
+    400026: Obstacle_Pipe_DecalRight
+    400028: Obstacle_Platform_Decal
+    400030: Obstacle_HighWall
+    400032: Obstacle_Pipe_Decal
+    2300000: Obstacle__HighWall
+    2300002: Obstacle_Archery
+    2300004: Obstacle_Crawl
+    2300006: Obstacle_Melee
+    2300008: Obstacle_Pipe
+    2300010: Obstacle_Platform
+    2300012: ObstacleDecals
+    2300014: Obstacle_Archery_Decal
+    2300016: Obstacle_Crawl_Decal
+    2300018: Obstacle_HighWall_Decal
+    2300020: Obstacle_Melee_Decal
+    2300022: Obstacle_Pipe_DecalLeft
+    2300024: Obstacle_Pipe_DecalRight
+    2300026: Obstacle_Platform_Decal
+    2300028: Obstacle_HighWall
+    2300030: Obstacle_Pipe_Decal
+    3300000: Obstacle__HighWall
+    3300002: Obstacle_Archery
+    3300004: Obstacle_Crawl
+    3300006: Obstacle_Melee
+    3300008: Obstacle_Pipe
+    3300010: Obstacle_Platform
+    3300012: ObstacleDecals
+    3300014: Obstacle_Archery_Decal
+    3300016: Obstacle_Crawl_Decal
+    3300018: Obstacle_HighWall_Decal
+    3300020: Obstacle_Melee_Decal
+    3300022: Obstacle_Pipe_DecalLeft
+    3300024: Obstacle_Pipe_DecalRight
+    3300026: Obstacle_Platform_Decal
+    3300028: Obstacle_HighWall
+    3300030: Obstacle_Pipe_Decal
+    4300000: Obstacle_Pipe
+    4300002: Obstacle_Melee
+    4300004: Obstacle_Platform
+    4300006: Obstacle_Archery
+    4300008: Obstacle_Crawl
+    4300010: Obstacle__HighWall
+    4300012: ObstacleDecals
+    4300014: Obstacle_Pipe_DecalRight
+    4300016: Obstacle_Melee_Decal
+    4300018: Obstacle_Crawl_Decal
+    4300020: Obstacle_Archery_Decal
+    4300022: Obstacle_Platform_Decal
+    4300024: Obstacle_HighWall_Decal
+    4300026: Obstacle_Pipe_DecalLeft
+    4300028: Obstacle_HighWall
+    4300030: Obstacle_Pipe_Decal
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

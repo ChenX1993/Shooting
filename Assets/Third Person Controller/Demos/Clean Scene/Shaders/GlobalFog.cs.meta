@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 851c9c39ba294ee48ab773e333c104b9
+timeCreated: 1487924807
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fogShader: {fileID: 4800000, guid: c77cd802fda3c7a4b8c1da22dc78638b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

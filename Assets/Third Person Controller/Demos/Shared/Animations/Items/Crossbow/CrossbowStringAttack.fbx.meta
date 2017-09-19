@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 577fa0d2882b6264d9ae4a3c0c79b18d
+timeCreated: 1433460305
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone_001
+    100006: Bone_002
+    100008: Bone_003
+    100010: Bone_004
+    100012: Bone_005
+    100014: Bone_006
+    100016: Bone_007
+    100018: Bone_008
+    100020: Bone_009
+    100022: Bone_010
+    100024: Bone_011
+    100026: Bone_012
+    100028: Bone_013
+    100030: Bone_014
+    100032: Bone_015
+    100034: Bone_017
+    100036: Bone_018
+    100038: Bone_019
+    100040: Bone_020
+    100042: Bone_021
+    100044: Bone_022
+    100046: Bone_023
+    100048: Bone_024
+    100050: Bone_025
+    100052: Bone_026
+    100054: Bone_027
+    100056: Bone_028
+    100058: Bone_029
+    100060: Bone_030
+    100062: Bone_031
+    100064: Bone_032
+    100066: //RootNode
+    100068: left_ik
+    100070: left_limit
+    100072: left_rotation
+    100074: Main
+    100076: right_ik
+    100078: right_limit
+    100080: right_rotation
+    100082: string
+    100084: Slingshot
+    100086: _body
+    100088: Crossbow
+    100090: Crossbow_001
+    100092: CrossbowArmature
+    100094: Body
+    400000: Armature
+    400002: Bone
+    400004: Bone_001
+    400006: Bone_002
+    400008: Bone_003
+    400010: Bone_004
+    400012: Bone_005
+    400014: Bone_006
+    400016: Bone_007
+    400018: Bone_008
+    400020: Bone_009
+    400022: Bone_010
+    400024: Bone_011
+    400026: Bone_012
+    400028: Bone_013
+    400030: Bone_014
+    400032: Bone_015
+    400034: Bone_017
+    400036: Bone_018
+    400038: Bone_019
+    400040: Bone_020
+    400042: Bone_021
+    400044: Bone_022
+    400046: Bone_023
+    400048: Bone_024
+    400050: Bone_025
+    400052: Bone_026
+    400054: Bone_027
+    400056: Bone_028
+    400058: Bone_029
+    400060: Bone_030
+    400062: Bone_031
+    400064: Bone_032
+    400066: //RootNode
+    400068: left_ik
+    400070: left_limit
+    400072: left_rotation
+    400074: Main
+    400076: right_ik
+    400078: right_limit
+    400080: right_rotation
+    400082: string
+    400084: Slingshot
+    400086: _body
+    400088: Crossbow
+    400090: Crossbow_001
+    400092: CrossbowArmature
+    400094: Body
+    4300000: Slingshot
+    4300002: Crossbow
+    4300004: Crossbow_001
+    7400000: ArmatureAction
+    7400002: SlingshotStringAttack
+    7400004: CrossbowStringAttack
+    7400006: CrossbowStringIdle
+    9500000: //RootNode
+    13700000: Slingshot
+    13700002: Crossbow
+    13700004: Crossbow_001
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CrossbowStringAttack
+      takeName: CrossbowStringAttack
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 1
+      - path: CrossbowArmature
+        weight: 1
+      - path: CrossbowArmature/Main
+        weight: 1
+      - path: CrossbowArmature/Main/Body
+        weight: 1
+      - path: CrossbowArmature/Main/Bone
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030/Bone_031
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030/Bone_031/Bone_032
+        weight: 1
+      - path: CrossbowArmature/Main/left_limit
+        weight: 1
+      - path: CrossbowArmature/Main/left_rotation
+        weight: 1
+      - path: CrossbowArmature/Main/left_rotation/left_ik
+        weight: 1
+      - path: CrossbowArmature/Main/right_limit
+        weight: 1
+      - path: CrossbowArmature/Main/right_rotation
+        weight: 1
+      - path: CrossbowArmature/Main/right_rotation/right_ik
+        weight: 1
+      - path: CrossbowArmature/Main/string
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CrossbowStringIdle
+      takeName: CrossbowStringAttack
+      firstFrame: 0
+      lastFrame: .100000009
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Crossbow
+        weight: 1
+      - path: CrossbowArmature
+        weight: 1
+      - path: CrossbowArmature/_body
+        weight: 1
+      - path: CrossbowArmature/Main
+        weight: 1
+      - path: CrossbowArmature/Main/Bone
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014
+        weight: 1
+      - path: CrossbowArmature/Main/Bone/Bone_001/Bone_002/Bone_003/Bone_004/Bone_005/Bone_006/Bone_007/Bone_008/Bone_009/Bone_010/Bone_011/Bone_012/Bone_013/Bone_014/Bone_015
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030/Bone_031
+        weight: 1
+      - path: CrossbowArmature/Main/Bone_017/Bone_018/Bone_019/Bone_020/Bone_021/Bone_022/Bone_023/Bone_024/Bone_025/Bone_026/Bone_027/Bone_028/Bone_029/Bone_030/Bone_031/Bone_032
+        weight: 1
+      - path: CrossbowArmature/Main/left_limit
+        weight: 1
+      - path: CrossbowArmature/Main/left_rotation
+        weight: 1
+      - path: CrossbowArmature/Main/left_rotation/left_ik
+        weight: 1
+      - path: CrossbowArmature/Main/right_limit
+        weight: 1
+      - path: CrossbowArmature/Main/right_rotation
+        weight: 1
+      - path: CrossbowArmature/Main/right_rotation/right_ik
+        weight: 1
+      - path: CrossbowArmature/Main/string
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Main
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

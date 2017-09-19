@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: 5928eb57dac722a499f65f4b551ddc1c
+timeCreated: 1437504207
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CollisionMesh_BarrierWall
+    100004: CollisionMesh_Lab
+    100006: CollisionMesh_LabEntrance
+    100008: CollisionMesh_LQ
+    100010: CollisionMesh_Platform
+    100012: CollisionMesh_PlatformOuter
+    100014: CollisionMesh_PlatformWall
+    400000: //RootNode
+    400002: CollisionMesh_BarrierWall
+    400004: CollisionMesh_Lab
+    400006: CollisionMesh_LabEntrance
+    400008: CollisionMesh_LQ
+    400010: CollisionMesh_Platform
+    400012: CollisionMesh_PlatformOuter
+    400014: CollisionMesh_PlatformWall
+    2300000: CollisionMesh_BarrierWall
+    2300002: CollisionMesh_Lab
+    2300004: CollisionMesh_LabEntrance
+    2300006: CollisionMesh_LQ
+    2300008: CollisionMesh_Platform
+    2300010: CollisionMesh_PlatformOuter
+    2300012: CollisionMesh_PlatformWall
+    3300000: CollisionMesh_BarrierWall
+    3300002: CollisionMesh_Lab
+    3300004: CollisionMesh_LabEntrance
+    3300006: CollisionMesh_LQ
+    3300008: CollisionMesh_Platform
+    3300010: CollisionMesh_PlatformOuter
+    3300012: CollisionMesh_PlatformWall
+    4300000: CollisionMesh_LabEntrance
+    4300002: CollisionMesh_Lab
+    4300004: CollisionMesh_BarrierWall
+    4300006: CollisionMesh_LQ
+    4300008: CollisionMesh_Platform
+    4300010: CollisionMesh_PlatformOuter
+    4300012: CollisionMesh_PlatformWall
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

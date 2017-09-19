@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 3060921afcba27844ac7da2da6a2017a
+timeCreated: 1432771756
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Obstacle_Archery_Decal
+    100002: Obstacle_Archery_DecalFill
+    100004: Obstacle_Crawl_Decal
+    100006: Obstacle_Crawl_DecalFill
+    100008: Obstacle_HighWall_Decal
+    100010: Obstacle_HighWall_DecalFill
+    100012: Obstacle_Melee_Decal
+    100014: Obstacle_Melee_DecalFill
+    100016: Obstacle_Pipe_DecalFillLeft
+    100018: Obstacle_Pipe_DecalFillRight
+    100020: Obstacle_Pipe_DecalLeft
+    100022: Obstacle_Pipe_DecalRight
+    100024: Obstacle_Platform_Decal
+    100026: Obstacle_Platform_DecalFill
+    100028: //RootNode
+    100030: Obstacle_Pipe_Decal
+    400000: Obstacle_Archery_Decal
+    400002: Obstacle_Archery_DecalFill
+    400004: Obstacle_Crawl_Decal
+    400006: Obstacle_Crawl_DecalFill
+    400008: Obstacle_HighWall_Decal
+    400010: Obstacle_HighWall_DecalFill
+    400012: Obstacle_Melee_Decal
+    400014: Obstacle_Melee_DecalFill
+    400016: Obstacle_Pipe_DecalFillLeft
+    400018: Obstacle_Pipe_DecalFillRight
+    400020: Obstacle_Pipe_DecalLeft
+    400022: Obstacle_Pipe_DecalRight
+    400024: Obstacle_Platform_Decal
+    400026: Obstacle_Platform_DecalFill
+    400028: //RootNode
+    400030: Obstacle_Pipe_Decal
+    2300000: Obstacle_Archery_Decal
+    2300002: Obstacle_Archery_DecalFill
+    2300004: Obstacle_Crawl_Decal
+    2300006: Obstacle_Crawl_DecalFill
+    2300008: Obstacle_HighWall_Decal
+    2300010: Obstacle_HighWall_DecalFill
+    2300012: Obstacle_Melee_Decal
+    2300014: Obstacle_Melee_DecalFill
+    2300016: Obstacle_Pipe_DecalFillLeft
+    2300018: Obstacle_Pipe_DecalFillRight
+    2300020: Obstacle_Pipe_DecalLeft
+    2300022: Obstacle_Pipe_DecalRight
+    2300024: Obstacle_Platform_Decal
+    2300026: Obstacle_Platform_DecalFill
+    2300028: Obstacle_Pipe_Decal
+    3300000: Obstacle_Archery_Decal
+    3300002: Obstacle_Archery_DecalFill
+    3300004: Obstacle_Crawl_Decal
+    3300006: Obstacle_Crawl_DecalFill
+    3300008: Obstacle_HighWall_Decal
+    3300010: Obstacle_HighWall_DecalFill
+    3300012: Obstacle_Melee_Decal
+    3300014: Obstacle_Melee_DecalFill
+    3300016: Obstacle_Pipe_DecalFillLeft
+    3300018: Obstacle_Pipe_DecalFillRight
+    3300020: Obstacle_Pipe_DecalLeft
+    3300022: Obstacle_Pipe_DecalRight
+    3300024: Obstacle_Platform_Decal
+    3300026: Obstacle_Platform_DecalFill
+    3300028: Obstacle_Pipe_Decal
+    4300000: Obstacle_Pipe_DecalFillLeft
+    4300002: Obstacle_Archery_DecalFill
+    4300004: Obstacle_Pipe_DecalFillRight
+    4300006: Obstacle_Melee_DecalFill
+    4300008: Obstacle_Crawl_DecalFill
+    4300010: Obstacle_HighWall_DecalFill
+    4300012: Obstacle_Platform_DecalFill
+    4300014: Obstacle_Pipe_DecalRight
+    4300016: Obstacle_Melee_Decal
+    4300018: Obstacle_Crawl_Decal
+    4300020: Obstacle_Archery_Decal
+    4300022: Obstacle_Platform_Decal
+    4300024: Obstacle_HighWall_Decal
+    4300026: Obstacle_Pipe_DecalLeft
+    4300028: Obstacle_Pipe_Decal
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

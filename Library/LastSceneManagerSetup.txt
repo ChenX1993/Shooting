@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Basic Third Person Controller/Resources/Scenes/Login.unity
+  isLoaded: 1
+  isActive: 1

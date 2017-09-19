@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73a71cf1e05067843a8f3ec4da2ad3db, type: 3}
+  m_Name: PistolDualWield
+  m_EditorClassIdentifier: 
+  m_ID: 66582223
+  m_PrimaryItem: {fileID: 11400000, guid: b9892dc51f8bab84590e65c39cd82e88, type: 2}

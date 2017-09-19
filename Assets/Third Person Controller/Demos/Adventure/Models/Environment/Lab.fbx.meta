@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 149ca37fce51d9e4481b3bef40a98fa5
+timeCreated: 1432311697
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lab_Detail
+    100004: Lab_Extras
+    100006: Lab_Floor
+    100008: Lab_Lights
+    100010: Lab_Main
+    100012: Lab_Screens
+    100014: Lab_CollisionMesh
+    100016: Lab_Ceiling
+    100018: Lab_Desk
+    100020: Lab_Entrance
+    100022: Lab_Doorway
+    400000: //RootNode
+    400002: Lab_Detail
+    400004: Lab_Extras
+    400006: Lab_Floor
+    400008: Lab_Lights
+    400010: Lab_Main
+    400012: Lab_Screens
+    400014: Lab_CollisionMesh
+    400016: Lab_Ceiling
+    400018: Lab_Desk
+    400020: Lab_Entrance
+    400022: Lab_Doorway
+    2300000: Lab_Detail
+    2300002: Lab_Extras
+    2300004: Lab_Floor
+    2300006: Lab_Lights
+    2300008: Lab_Main
+    2300010: Lab_Screens
+    2300012: Lab_CollisionMesh
+    2300014: Lab_Ceiling
+    2300016: Lab_Desk
+    2300018: Lab_Entrance
+    2300020: //RootNode
+    2300022: Lab_Doorway
+    3300000: Lab_Detail
+    3300002: Lab_Extras
+    3300004: Lab_Floor
+    3300006: Lab_Lights
+    3300008: Lab_Main
+    3300010: Lab_Screens
+    3300012: Lab_CollisionMesh
+    3300014: Lab_Ceiling
+    3300016: Lab_Desk
+    3300018: Lab_Entrance
+    3300020: //RootNode
+    3300022: Lab_Doorway
+    4300000: Lab_Screens
+    4300002: Lab_Lights
+    4300004: Lab_Extras
+    4300006: Lab_Floor
+    4300008: Lab_Detail
+    4300010: Lab_Main
+    4300012: Lab_CollisionMesh
+    4300014: Lab_Desk
+    4300016: Lab_Ceiling
+    4300018: Lab_Entrance
+    4300020: Lab_Doors
+    4300022: Lab_Doorway
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

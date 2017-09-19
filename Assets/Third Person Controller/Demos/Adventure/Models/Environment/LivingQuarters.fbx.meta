@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 70168fb4da7f93040904f1fbefdd7d52
+timeCreated: 1432310066
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LivingQuarters_Detail
+    100004: LivingQuarters_Fabric
+    100006: LivingQuarters_Lights
+    100008: LivingQuarters_Main
+    100010: LivingQuarters_Platform
+    100012: LivingQuarters_Screens
+    100014: LQ_Emissive_Bed
+    100016: LQ_Emissive_Door
+    100018: LivingQuarters_CollisionMesh
+    100020: PlatformWall_CollisionMesh
+    100022: CollisionMesh_LivingQuarters
+    100024: CollisionMesh_Platform
+    100026: CollisionMesh_PlatformWall
+    100028: LivingQuarters_PlatformWall
+    100030: LivingQuarters_PlatformOuter
+    100032: LivingQuarters_Bed
+    100034: LivingQuarters_Ceiling
+    100036: LivingQuarters_Details
+    100038: LivingQuarters_Door
+    100040: LivingQuarters_Floor
+    100042: LivingQuarters_Walls
+    100044: CollisionMesh_LQ
+    100046: CollisionMesh_PlatformOuter
+    400000: //RootNode
+    400002: LivingQuarters_Detail
+    400004: LivingQuarters_Fabric
+    400006: LivingQuarters_Lights
+    400008: LivingQuarters_Main
+    400010: LivingQuarters_Platform
+    400012: LivingQuarters_Screens
+    400014: LQ_Emissive_Bed
+    400016: LQ_Emissive_Door
+    400018: LivingQuarters_CollisionMesh
+    400020: PlatformWall_CollisionMesh
+    400022: CollisionMesh_LivingQuarters
+    400024: CollisionMesh_Platform
+    400026: CollisionMesh_PlatformWall
+    400028: LivingQuarters_PlatformWall
+    400030: LivingQuarters_PlatformOuter
+    400032: LivingQuarters_Bed
+    400034: LivingQuarters_Ceiling
+    400036: LivingQuarters_Details
+    400038: LivingQuarters_Door
+    400040: LivingQuarters_Floor
+    400042: LivingQuarters_Walls
+    400044: CollisionMesh_LQ
+    400046: CollisionMesh_PlatformOuter
+    2300000: LivingQuarters_Detail
+    2300002: LivingQuarters_Fabric
+    2300004: LivingQuarters_Lights
+    2300006: LivingQuarters_Main
+    2300008: LivingQuarters_Platform
+    2300010: LivingQuarters_Screens
+    2300012: LQ_Emissive_Bed
+    2300014: LQ_Emissive_Door
+    2300016: LivingQuarters_CollisionMesh
+    2300018: PlatformWall_CollisionMesh
+    2300020: CollisionMesh_LivingQuarters
+    2300022: CollisionMesh_Platform
+    2300024: CollisionMesh_PlatformWall
+    2300026: LivingQuarters_PlatformWall
+    2300028: LivingQuarters_PlatformOuter
+    2300030: LivingQuarters_Bed
+    2300032: LivingQuarters_Ceiling
+    2300034: LivingQuarters_Details
+    2300036: LivingQuarters_Door
+    2300038: LivingQuarters_Floor
+    2300040: LivingQuarters_Walls
+    2300042: CollisionMesh_LQ
+    2300044: CollisionMesh_PlatformOuter
+    3300000: LivingQuarters_Detail
+    3300002: LivingQuarters_Fabric
+    3300004: LivingQuarters_Lights
+    3300006: LivingQuarters_Main
+    3300008: LivingQuarters_Platform
+    3300010: LivingQuarters_Screens
+    3300012: LQ_Emissive_Bed
+    3300014: LQ_Emissive_Door
+    3300016: LivingQuarters_CollisionMesh
+    3300018: PlatformWall_CollisionMesh
+    3300020: CollisionMesh_LivingQuarters
+    3300022: CollisionMesh_Platform
+    3300024: CollisionMesh_PlatformWall
+    3300026: LivingQuarters_PlatformWall
+    3300028: LivingQuarters_PlatformOuter
+    3300030: LivingQuarters_Bed
+    3300032: LivingQuarters_Ceiling
+    3300034: LivingQuarters_Details
+    3300036: LivingQuarters_Door
+    3300038: LivingQuarters_Floor
+    3300040: LivingQuarters_Walls
+    3300042: CollisionMesh_LQ
+    3300044: CollisionMesh_PlatformOuter
+    4300000: LivingQuarters_Fabric
+    4300002: LivingQuarters_Detail
+    4300004: LivingQuarters_Lights
+    4300006: LivingQuarters_Screens
+    4300008: LivingQuarters_Platform
+    4300010: LivingQuarters_Main
+    4300012: LQ_Emissive_Bed
+    4300014: LQ_Emissive_Door
+    4300016: LivingQuarters_CollisionMesh
+    4300018: PlatformWall_CollisionMesh
+    4300020: CollisionMesh_Platform
+    4300022: LivingQuarters_PlatformWall
+    4300024: CollisionMesh_PlatformWall
+    4300026: CollisionMesh_LivingQuarters
+    4300028: LivingQuarters_PlatformOuter
+    4300030: LivingQuarters_Details
+    4300032: LivingQuarters_Ceiling
+    4300034: LivingQuarters_Bed
+    4300036: LivingQuarters_Door
+    4300038: LivingQuarters_Floor
+    4300040: LivingQuarters_Walls
+    4300042: CollisionMesh_PlatformOuter
+    4300044: CollisionMesh_LQ
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

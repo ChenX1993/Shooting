@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6986cd59941ae94418f1de1b31dd6a73, type: 3}
+  m_Name: AssaultRifle
+  m_EditorClassIdentifier: 
+  m_ID: 10148016
+  m_ConsumableItem:
+    m_ItemType: {fileID: 11400000, guid: dd688f9c8dd63f44391f3ddfdff3d339, type: 2}
+    m_Capacity: 300
+  m_AdditionalConsumableItems:
+  - m_ItemType: {fileID: 11400000, guid: 88e4d87160eb57d41a5a124b2f486019, type: 2}
+    m_Capacity: 5
+  m_DualWieldItems: []

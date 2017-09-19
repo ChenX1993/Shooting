@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6986cd59941ae94418f1de1b31dd6a73, type: 3}
+  m_Name: RocketLauncher
+  m_EditorClassIdentifier: 
+  m_ID: 278603633
+  m_ConsumableItem:
+    m_ItemType: {fileID: 11400000, guid: 99f145f094e39aa4faac1d74415717c6, type: 2}
+    m_Capacity: 6
+  m_ExtensionConsumableItems: []
+  m_DualWieldItems: []

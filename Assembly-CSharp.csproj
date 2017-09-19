@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7CF1F33E-A859-9D01-4F58-76470CD3E24C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/Code/Unity 3D/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/Code/Unity 3D/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\LoginControl.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\CameraBehaviour.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\Controller.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\HUDBehaviour.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\IKControl.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\PlayerAnimationListener.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\PlayerBehaviour.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\RagdollHelper.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Player\TransformPathMaker.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Tools\DestroyAfterTime.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Weapon\ProjectileBase.cs" />
+     <Compile Include="Assets\Basic Third Person Controller\Resources\Scripts\Weapon\WeaponBase.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\Demo\FPSDemoGUI.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\Demo\FPSDemoReactivator.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\Demo\FPSFireManager.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\Demo\MouseLock.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\FPSLightCurves.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\FPSParticleSystemScaler.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\FPSRandomRotateAngle.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\FPSShaderColorGradient.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\FPSShaderFloatCurves.cs" />
+     <Compile Include="Assets\FPS Pack\Scripts\MaterialType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayerApply.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\DemoBoxesGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnAwakePhysicsSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnClickFlashRpc.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnDoubleclickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\ClickAndDrag.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\DemoOwnershipGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\HighlightOwnedGameObj.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\InstantiateCube.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\MaterialPerOwner.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickDisableObj.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickRequestOwnership.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickRightDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\ShowInfoOfPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChannelSelector.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\NamePickGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUICustomAuth.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendFinding.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendsInRoom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\OnClickCallMethod.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\HubGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\MoveCam.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\Scripts\DemoHubManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\Scripts\ToDemoHubButton.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\ToHubButton.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoMecanim\Scripts\DemoMecanimGUI.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\MessageOverlay.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\OnCollideSwitchTeam.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\OnPickedUpScript.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupCamera.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupController.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupDemoGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupTriggerForward.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsCore.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsDebug.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsDemoConnect.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\DemoRPGMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\RPGCamera.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\RPGMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeExtra.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeInter.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeLerp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\DragToMove.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\IELdemo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonController.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerInGame.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerMenu.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\AudioRpc.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\ClickDetector.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\GameLogic.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\Monstergame\Resources\Scripts\myThirdPersonController.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\NetworkCharacter.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\RandomMatchmaker.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\CameraWork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\IdleRunJump.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\PlayerDiamond.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\PlayerVariables.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatChannel.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatClient.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatDisconnectCause.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatEventCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatOperationCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatParameterCode.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatPeer.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
+     <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
+     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Scripts\AudioEvent.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Scripts\DoorOpenInteractable.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Scripts\DoorTrigger.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Scripts\LightTrigger.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Scripts\WaterTile.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Clean Scene\Scripts\CleanSpawnSelection.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Clean Scene\Scripts\DemoManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Clean Scene\Scripts\UnderwaterEffect.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Clean Scene\Shaders\GlobalFog.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Clean Scene\Shaders\PostEffectsBase.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Network\Scripts\DemoNetworkManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Demos\Network\Scripts\ObjectSpawner.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Utility\CharacterBuilder.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Utility\ItemBuilder.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\AI\SimpleTurret.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Camera\CameraController.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Camera\CameraHandler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Camera\CameraMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Camera\CameraState.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Balance.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Climb.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Cover.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\DamageVisualization.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Die.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Dive.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Dodge.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Fall.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Fly.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Generic.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Hang.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\HeightChange.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Interact.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Jump.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\LedgeStrafe.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\MoveObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\PickupItem.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Push.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\QuickMovement.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\RestrictRotation.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Ride.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Roll.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\ShortClimb.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\SpeedChange.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Swim.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\Abilities\Vault.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\AnimatorMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterFootsteps.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterFootTrigger.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterHealth.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterIK.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterRagdoll.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\CharacterRespawner.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\ControllerHandler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\ItemColliderPositioner.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\ItemHandler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\ItemPlacement.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\NavMeshAgentBridge.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\NetworkMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\PointClickControllerHandler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Character\RigidbodyCharacterController.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\DecalManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\DecalRemover.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\LayerManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\NetworkEventManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\ObjectManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\ObjectPool.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\Scheduler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Game\SpawnSelection.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Input\UnityInput.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Input\UnityVirtualButton.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Input\UnityVirtualButtonManager.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\ConsumableItemType.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\DualWieldItemType.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\InventoryHandler.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\PrimaryItemType.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Inventory\SecondaryItemType.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Attachments\LaserSight.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Attachments\MagicItemParticle.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Attachments\MeleeWeaponHitbox.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Extensions\ItemExtension.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Extensions\MeleeWeaponExtension.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Extensions\ShootableWeaponExtension.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Extensions\WeaponExtension.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\MagicItem.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\MeleeWeapon.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\Shield.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\ShootableWeapon.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\StaticItem.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Items\ThrowableItem.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\AnimatedInteractable.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\ClimbableObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Explosion.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Grenade.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\HealthPickup.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\ItemPickup.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\MoveableObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\MovingPlatform.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\MuzzleFlash.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Projectile.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\PullableObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\PushableObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\RideableObject.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Shell.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Tracer.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Objects\Water.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Traits\Health.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Traits\Interactable.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Traits\ParticleRemover.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Traits\Respawner.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\AbilityIndicatorMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\CrosshairsMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\GenericMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\HealthMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\HitIndicatorMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\ImageFader.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\ItemMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\ItemWheelMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\ItemWheelSliceMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\UI\SniperScopeMonitor.cs" />
+     <Compile Include="Assets\Third Person Controller\Scripts\Wrappers\Utility\EventHandler.cs" />
+     <None Include="Assets\FPS Pack\Shaders\FPSDistortionParticles.shader" />
+     <None Include="Assets\FPS Pack\Readme.txt" />
+     <None Include="Assets\Third Person Controller\Demos\Adventure\Shaders\WaterSplash.shader" />
+     <None Include="Assets\Third Person Controller\Demos\Clean Scene\Shaders\DemoGlobalFog.shader" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
+     <None Include="Assets\Photon Unity Networking\link.xml" />
+     <None Include="Assets\Third Person Controller\Demos\Third Person Shooter\Shaders\LaserSight.shader" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\FPS Pack\Shaders\FPSProjectorBlended.shader" />
+     <None Include="Assets\FPS Pack\Shaders\FPSGlowAdditive.shader" />
+     <None Include="Assets\FPS Pack\Shaders\FPSLazer.shader" />
+     <None Include="Assets\MovementAnimsetPro\readme.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\FPS Pack\Shaders\FPSGlass.shader" />
+     <None Include="Assets\Photon Unity Networking\Demos\Shared Assets\Skin\3dText.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\FPS Pack\Shaders\FPSParticleBlendDirLight.shader" />
+     <None Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Third Person Controller\Demos\Adventure\Shaders\TerrainSurface.shader" />
+     <None Include="Assets\Third Person Controller\Demos\Adventure\Water\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Assets\OpenSans\Apache License.txt" />
+     <None Include="Assets\FPS Pack\Shaders\FPSWaterParticles.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>E:/Code/Unity 3D/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>F:/workspace/Unity/Shooting/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>F:/workspace/Unity/Shooting/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ThirdPersonControllerRuntime">
+ <HintPath>F:/workspace/Unity/Shooting/Assets/Third Person Controller/Scripts/ThirdPersonControllerRuntime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{852BDA43-06BF-68E4-C9F1-0F6D4ACBEF7C}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
